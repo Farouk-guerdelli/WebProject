@@ -9,7 +9,7 @@ import {
 } from "mdb-react-ui-kit";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import { API_URL } from './config';
+import { API_URL } from './Config';
 
 
 function Login() {
