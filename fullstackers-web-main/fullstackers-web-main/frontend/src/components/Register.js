@@ -9,7 +9,7 @@ import {
 import "../App.css";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-import { API_URL } from '../config';
+import { API_URL } from './config';
 
 function Register() {
   const url = `${API_URL}/api/auth/register`;  // ✅ Fixed endpoint
